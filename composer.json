@@ -1,0 +1,30 @@
+{
+    "name": "hmw-pj/url-shortener",
+    "description": "Library for url convert to short code",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yehor Konopka",
+            "email": "nimp93it@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "type" : "library",
+    "homepage": "https://github.com/Egorkonopka/UrlShortener",
+    "require" : {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "7.*",
+        "ext-mbstring": "*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "HmwPj\\UrlShortener\\": "src/"
+        }
+    },
+    "extra" : {
+    },
+    "scripts": {
+        "auto-scripts": {
+        }
+    }
+}
